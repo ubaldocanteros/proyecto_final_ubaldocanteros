@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.contenedorarticulos article{
+  margin: 30px;
+}
+
+nav{
+    background-color: greenyellow;
+    height: 110px;
+    width: 100%;
+}
+.link{
+    position: absolute;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+}
+.titulo{
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 110px;
+    margin: 0 5px;
+}
+nav ul li a{
+    font-size: 22px;
+    padding: 10px 16px;
+    border-radius: 3px;
+}
+li a:hover{
+    background-color: aqua;
+    transition: .5s;
+}
+.checkboton{
+    font-size: 35px;
+    float: right;
+    line-height: 110px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: block;
+}
+#checkbox{
+    display: none;
+}
+.bodyprincipal{
+    background: url("https://images5.alphacoders.com/128/1288612.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+
+    
+}
+
+
+.navfixture{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#infolista{
+    background-image: url(https://img.freepik.com/vector-premium/campo-futbol-o-estadio-futbol-fondo-focos-brillantes_212889-4388.jpg?w=2000);
+    background-size: cover;
+    height: calc(110vh - 110px);
+}
+
+
+
+.contenedorarticulos{
+    float: left;
+    margin-top: 100px;
+   
+    width: 75%;
+font-size: 20px;
+color: beige;
+}
+
+
+
+
+aside{
+    float: right;
+    background-color: rgba(0, 255, 255, 0.712);
+    width: 25%;
+    height: 350px;
+
+}
+
+aside article{
+    margin: 30px;
+}
+
+audio{
+    display: none;
+}
+
+/* Lista de jugadores */
+
+ #arqueros, #defensores, #mediocampistas, #delanteros{
+        display: none;
+    }
+
+/* Fixture */   
+#octavos, #cuartos, #semifinal, #final, #campeon{
+   padding: 30px;
+    font-size: 30px;
+  }
+
+
+#fixture{
+    background-image: url(https://img.freepik.com/vector-premium/fondo-copa-mundial-futbol-banner-campeonato-futbol-2022-qatar_29865-3055.jpg?w=996);
+    background-size: cover;
+    height: calc(100vh - 110px);
+}
+
+.fixturetabla{
+    display: flex;
+}
+
+
+
+
+#cuadro{
+    background-color: rgba(172, 255, 47, 0.685);
+    width: 200px; height: 40px;
+    border-color: rgba(3, 161, 56, 0.856);
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.cuadro2, .cuadro4, .cuadro6, .cuadro8, .cuadro10, .cuadro12, .cuadro14, .cuadro16, .cuadro18,
+.cuadro20, .cuadro22, .cuadro24, .cuadro26, .cuadro28, .cuadro30{
+    margin-top: 5px;
+}
+.cuadro3, .cuadro5, .cuadro7, .cuadro9, .cuadro11, .cuadro13, .cuadro15{
+    margin-top: 20px;
+}
+
+.cuadro17{
+    margin-top: 55px;
+}
+.cuadro19, .cuadro21, .cuadro23, .cuadro25{
+    margin-top: 125px;
+}
+.cuadro25{
+    margin-top: 160px;
+}
+.cuadro27{
+    margin-top: 335px;
+}
+.cuadro29{
+    margin-top: 360px;
+}
+.cuadro31{
+    margin-top: 380px;
+    position: absolute;
+    
+}
+
+
+.rondas{
+    display: flex;
+   position: absolute;
+}
+
+
+
+
+.a{
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.b{
+    margin-top: 30px;
+    margin-left: 135px;
+}
+.c{
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.d{
+    margin-top: 340px;
+    margin-left: 190px;
+}
+.e{
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.copacampeon{
+    margin-top: 330px;
+    margin-left: 1110px;
+    position: absolute;
+}
+
+.rondas{
+    font-size: 20px;
+    color: azure;
+}
+
+
+.noticias{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.bodynoticias{
+    background-image: url(https://www.elsoldemexico.com.mx/deportes/futbol/9tfi5l-mundial-qatar.jpg/ALTERNATES/LANDSCAPE_1140/mundial%20qatar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 110px);
+}
+
+.mainnoticias{
+    margin: 80px;
+    color: bisque;
+    font-size: 20px;
+
+}
+
+
+.ul{
+    display: none;
+}
+
+@media (max-width: 952px){
+    label ul li a{
+        font-size: 10px;
+    }
+
+}
+@media (max-width: 850px){
+    .checkboton{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100vh;
+        background: greenyellow;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+
+    }
+    nav ul li{
+        display: block;
+        margin-right: 10px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+
+        line-height: 60px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #checkbox:checked ~ ul{
+        left:0;
+    }
+    }
+
+

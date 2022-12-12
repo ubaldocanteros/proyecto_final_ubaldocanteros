@@ -1,3 +1,10 @@
+/* Pagina Principal */
+
+
+
+
+
+/* Lista Jugadores */
 
 function mostrararqueros() {
     document.getElementById("arqueros").style.display = "block";
@@ -26,3 +33,5 @@ function mostrardelanteros() {
     document.getElementById("mediocampistas").style.display = "none";
     document.getElementById("delanteros").style.display = "block";
 }
+
+

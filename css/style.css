@@ -22,11 +22,12 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.logo{
-    height: 100px;
-}
+
 .titulo{
-    margin-left: 20px;
+    
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
     font-size: 50px;
 }
 
@@ -90,12 +91,14 @@ li a:hover{
     width: 75%;
 font-size: 20px;
 color: beige;
+text-shadow: -5px 0px 7px red, 5px 0px 7px red;
 }
 
 
 
 
 aside{
+    margin-top: 20px;
     float: right;
     background-color: rgba(0, 255, 255, 0.712);
     width: 25%;
@@ -111,9 +114,62 @@ audio{
     display: none;
 }
 
+/* Partidos */
+
+
+.maintable{
+    margin: 50px auto;
+    width: 700px;
+}
+
+th, td{
+    padding: 10px;
+}
+
+
+td{
+text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+
+
+tr:hover th{
+    background-color: greenyellow;
+    
+}
+
+
+table{
+   width: 100%;
+   background-color: white;
+   border-collapse: collapse;
+}
+
+
 /* Lista de jugadores */
 
- #arqueros, #defensores, #mediocampistas, #delanteros{
+
+.divlista{
+    float: left;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.divtecnico{
+    float: right;
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+
+
+
+  #defensores, #mediocampistas, #delanteros{
         display: none;
     }
 
@@ -221,30 +277,29 @@ audio{
     color: azure;
 }
 
-
-.noticias{
-    padding-top: 40px;
-    text-align: center;
-}
-
 .bodynoticias{
-    background-image: url(https://www.elsoldemexico.com.mx/deportes/futbol/9tfi5l-mundial-qatar.jpg/ALTERNATES/LANDSCAPE_1140/mundial%20qatar.jpg);
+    background-image: url(https://img.freepik.com/vector-premium/deporte-afiche-fondo-futbol-pelota-realista-vector-bandera-qatar_218660-1014.jpg?w=996);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: calc(100vh - 110px);
 }
 
-.mainnoticias{
-    margin: 80px;
+.contenedornoticias{
+    
+    font-family: sans-serif;
+    width: 75%;
+    float: right;
     color: bisque;
     font-size: 20px;
+    margin: 40px;
+    text-shadow: -5px 0px 7px black, 5px 0px 7px black;
 
 }
 
 
-.ul{
-    display: none;
+.contenedornoticias h1, h3, p{
+    margin: 20px;
 }
 
 @media (max-width: 952px){

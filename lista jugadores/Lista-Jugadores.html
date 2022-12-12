@@ -5,22 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <title>Lista de Jugadores</title>
 </head>
 <body>
     <header>
       
         <nav>
-            <h1>Lista de Jugadores</h1>
-            <ul>
-                <li onclick="mostrararqueros();">Arqueros</li>
-                <li onclick="mostrardefensores();">Defensores</li>
-                <li onclick="mostrarmediocampistas();">Mediocampistas</li>
-                <li onclick="mostrardelanteros();">Delanteros</li>
+            
+                <a href="../index.html" class="link">
+                  <img src="../imagenes/logocopa.png" alt="logo"
+                  width="80" height="80">
+                  </a>
+                  <a href="../lista jugadores/Lista-Jugadores.html">
+                  <h1 class="titulo">Lista de Jugadores</h1>
+                  </a>
+                
+            <ul class="lista">
+                <li onclick="mostrararqueros();"><a href="#">Arqueros</a> </li>
+                <li onclick="mostrardefensores();"><a href="#">Defensores</a> </li>
+                <li onclick="mostrarmediocampistas();"><a href="#">Mediocampistas</a> </li>
+                <li onclick="mostrardelanteros();"><a href="#">Delanteros</a> </li>
             </ul>
         </nav>
     </header>
     <main id="infolista">
+        <div class="divlista">
         <article id="arqueros">
                <img src="../lista jugadores/imagenes/arqueros.png" alt="arqueros" width="600" height="350">
         </article>
@@ -33,7 +42,16 @@
         <article id="delanteros">
                 <img src="../lista jugadores/imagenes/delanteros.png" alt="delanteros" width="950" height="650">
         </article>
+    </div>
+    <div class="divtecnico">
+        <article id="tecnico">
+            <h2>Director Técnico (Argentina)</h2>
+            <img src="https://12noticias.tv/wp-content/uploads/2018/11/scaloni.jpg" alt="tecnico" width="500" height="300">
+        </article>
+
+    </div>
     </main>
+    
     <script src="../js/javascript.js"></script>
 </body>
 </html>

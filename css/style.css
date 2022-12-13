@@ -114,6 +114,8 @@ audio{
     display: none;
 }
 
+
+
 /* Partidos */
 
 
@@ -301,6 +303,14 @@ table{
 .contenedornoticias h1, h3, p{
     margin: 20px;
 }
+
+/* Estadios */
+
+.contenedorcarousel img{
+    width: 1300px;
+    height: 650px;
+}
+
 
 @media (max-width: 952px){
     label ul li a{

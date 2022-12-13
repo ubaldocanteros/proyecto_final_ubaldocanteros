@@ -1,10 +1,8 @@
 /* Pagina Principal */
 
 
-var edad = parseInt(prompt("Bienbenido. Por favor introduce tu edad"));
-
-
-    if(edad>=18){
+let edad = parseInt(prompt("Bienbenido. Por favor introduce tu edad"));
+if(edad >= 18){
         alert("Puedes entrar, eres mayor de edad.");
     }else{
         alert("Eres menor de edad, entras bajo tu responsabilidad");

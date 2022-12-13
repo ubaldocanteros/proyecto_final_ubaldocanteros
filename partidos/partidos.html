@@ -8,18 +8,35 @@
     <title>Partidos</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="../index.html" class="link">
-                <img src="../imagenes/logocopa.png" alt="logo"
-                width="80" height="80">
-            </a>
-            <a href="../partidos/partidos.html">
-                <h1 class="titulo">Partidos</h1>
-            </a>
+
+    <header class="headerprincipal">
+        <nav class="navprincipal">
+            <a name="arriba"></a>
+            <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="checkboton">
+            <i class="bi bi-list"></i>
+        </label>
+        <a href="../index.html" class="link">
+            <img src="../imagenes/logocopa.png" alt="logo"
+            width="80" height="80">
+        </a>
+        <a href="../partidos/partidos.html">
+            <h1 class="titulo">Partidos</h1>
+        </a>
+        <ul class="lista">
+        
+           <li><a href="../lista jugadores/Lista-Jugadores.html">Lista de jugadores</a></li>
+           <li><a href="../fixture/fixture.html">Fixture</a></li>
+           <li><a href="../estadios/estadios.html">Estadios</a></li>
+           <li><a href="../noticias/noticias.html">Noticias</a></li>
+           <li><a href="../contacto/contacto.html">Contacto</a></li>
+        </ul>
         </nav>
     </header>
-    
+    <div class="irabajo">
+
+        <a href="#abajo">Ir a la parte de abajo</a>
+    </div>
 <main class="maintable">
     <table>
     <tr>
@@ -228,7 +245,10 @@
 </table>
 </main>
 
-
+<div class="irarriba">
+    <a href="#arriba">Ir a la parte de arriba</a>
+<a name="abajo"></a>
+</div>
 
 </body>
 </html>

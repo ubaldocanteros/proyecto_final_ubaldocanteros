@@ -8,17 +8,36 @@
     <title>Lista de Jugadores</title>
 </head>
 <body>
+
+    
+    <header class="headerprincipal">
+        <nav class="navprincipal">
+            <a name="arriba"></a>
+            <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="checkboton">
+            <i class="bi bi-list"></i>
+        </label>
+        <a href="../index.html" class="link">
+            <img src="../imagenes/logocopa.png" alt="logo"
+            width="80" height="80">
+        </a>
+        <a href="../partidos/partidos.html">
+            <h1 class="titulo">Lista de Jugadores</h1>
+        </a>
+        <ul class="lista">
+        
+           <li><a href="../fixture/fixture.html">Fixture</a></li>
+           <li><a href="../estadios/estadios.html">Estadios</a></li>
+           <li><a href="../noticias/noticias.html">Noticias</a></li>
+           <li><a href="../contacto/contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
     <header>
       
         <nav>
-            
-                <a href="../index.html" class="link">
-                  <img src="../imagenes/logocopa.png" alt="logo"
-                  width="80" height="80">
-                  </a>
-                  <a href="../lista jugadores/Lista-Jugadores.html">
-                  <h1 class="titulo">Lista de Jugadores</h1>
-                  </a>
+        
+        
                 
             <ul class="lista">
                 <li onclick="mostrararqueros();"><a href="#">Arqueros</a> </li>
@@ -29,6 +48,10 @@
         </nav>
     </header>
     <main id="infolista">
+        <div class="irabajo">
+
+            <a href="#abajo">Ir a la parte de abajo</a>
+        </div>
         <div class="divlista">
         <article id="arqueros">
                <img src="../lista jugadores/imagenes/arqueros.png" alt="arqueros" width="600" height="350">
@@ -52,6 +75,11 @@
     </div>
     </main>
     
+    <div class="irarriba">
+        <a href="#arriba">Ir a la parte de arriba</a>
+    <a name="abajo"></a>
+    </div>
+
     <script src="../js/javascript.js"></script>
 </body>
 </html>

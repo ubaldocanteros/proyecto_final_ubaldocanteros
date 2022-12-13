@@ -1,3 +1,8 @@
+
+html{
+    height: 100%;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -6,8 +11,15 @@
     box-sizing: border-box;
 }
 
+
+.irarriba, .irabajo{
+text-align: center;
+font-size: 25px;
+background-color: rgba(172, 255, 47, 0.555);
+}
+
 .contenedorarticulos article{
-  margin: 30px;
+  margin: 15px;
 }
 
 nav{
@@ -61,10 +73,13 @@ li a:hover{
     display: none;
 }
 .bodyprincipal{
+display: flex;
+flex-direction: column;
+min-height: 100%;
     background: url("https://images5.alphacoders.com/128/1288612.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+
     
 
     
@@ -111,9 +126,20 @@ aside article{
 }
 
 audio{
-    display: none;
+    display: block;
 }
 
+footer{margin-top: auto;
+  
+    background-color: greenyellow;
+
+
+
+    
+  
+
+ 
+}
 
 
 /* Partidos */
@@ -310,6 +336,25 @@ table{
     width: 1300px;
     height: 650px;
 }
+
+/* Contacto */
+
+
+.bodycontacto{
+    
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-futbol-degradado-dinamico_23-2149007789.jpg?size=626&ext=jpg&ga=GA1.2.1752012092.1670510827) ;
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.formulario{
+    font-size: 20px;
+    text-align: center;
+}
+
 
 
 @media (max-width: 952px){

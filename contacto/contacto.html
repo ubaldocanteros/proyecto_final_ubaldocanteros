@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bodycontacto">
+
+    
+    <header class="headerprincipal">
+        <nav class="navprincipal">
+            <a name="arriba"></a>
+            <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="checkboton">
+            <i class="bi bi-list"></i>
+        </label>
+        <a href="../index.html" class="link">
+            <img src="../imagenes/logocopa.png" alt="logo"
+            width="80" height="80">
+        </a>
+        <a href="../contacto/contacto.html">
+            <h1 class="titulo">Contacto</h1>
+        </a>
+        <ul class="lista">
+        
+           <li><a href="../lista jugadores/Lista-Jugadores.html">Lista de jugadores</a></li>
+           <li><a href="../fixture/fixture.html">Fixture</a></li>
+           <li><a href="../estadios/estadios.html">Estadios</a></li>
+           <li><a href="../noticias/noticias.html">Noticias</a></li>
+           
+        </ul>
+        </nav>
+    </header>
+    <div class="contenedorformulario"></div>
+   <form method="" action="" class="formulario">
+    <p>Nombre: <br><input type="text" name="nombre" placeholder="nombre y apellido"  maxlength="35" required> <br>
+    Correo electrónico: <br><input type="email" name="correo" placeholder="correo electrónico" maxlength="35" required> <br>
+    Asunto: <br><input type="text" name="asunto" placeholder="asunto" maxlength="20" required> <br>
+    Mensaje: <br><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="mensaje" maxlength="180" required></textarea><br>
+    <input type="submit" value="Enviar Datos" ></p>
+    </div>
+
+   </form>
+</body>
+</html>

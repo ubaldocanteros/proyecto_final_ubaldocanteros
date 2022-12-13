@@ -100,10 +100,10 @@ text-shadow: -5px 0px 7px red, 5px 0px 7px red;
 aside{
     margin-top: 20px;
     float: right;
-    background-color: rgba(0, 255, 255, 0.712);
+    background-color: rgba(172, 255, 47, 0.842);
     width: 25%;
     height: 350px;
-
+font-size: 20px;
 }
 
 aside article{
